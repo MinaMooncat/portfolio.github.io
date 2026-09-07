@@ -325,6 +325,14 @@ header {
   border-radius: 4px;
 }
 
+.pixel-art {
+  width: min(256px, 100%);
+  height: auto;
+  margin: 0 auto;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
 .project-card p {
   padding: 0 0.75rem 1rem;
   font-size: 0.95rem;
